@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_orders"
+            android:icon="@drawable/menu_capsule"
+            android:title="@string/menu_pharmacyOrder" />
+        <item
+            android:id="@+id/nav_labtest"
+            android:icon="@drawable/menu_mytest"
+            android:title="@string/menu_labTest" />
+        <item
+            android:id="@+id/nav_consulatncy"
+            android:icon="@drawable/menu_consultant"
+            android:title="@string/menu_consultancy" />
+        <item
+            android:id="@+id/nav_stores"
+            android:icon="@drawable/menu_store"
+            android:title="@string/menu_ourStore" />
+        <item
+            android:id="@+id/nav_payment"
+            android:icon="@drawable/payment_method_pay_svgrepo_com"
+            android:title="@string/menu_paymentMethod" />
+        <item
+            android:id="@+id/nav_referandearns"
+            android:icon="@drawable/menu_refer"
+            android:title="@string/menu_referandearn" />
+        <item
+            android:id="@+id/nav_help"
+            android:icon="@drawable/menu_helpcenter"
+            android:title="@string/menu_help" />
+        <item
+            android:id="@+id/nav_setting"
+            android:icon="@drawable/menu_setting"
+            android:title="@string/menu_setting" />
+        <item
+            android:id="@+id/nav_aboutus"
+            android:icon="@drawable/menu_aboutus"
+            android:title="@string/menu_aboutUs" />
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/ic_logout"
+            android:title="@string/logout" />
+    </group>
+</menu>

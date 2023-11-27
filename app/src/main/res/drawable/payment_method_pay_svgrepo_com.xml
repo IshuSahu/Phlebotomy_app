@@ -1,0 +1,48 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="512dp"
+    android:height="512dp"
+    android:viewportWidth="512"
+    android:viewportHeight="512">
+  <path
+      android:pathData="M336.62,298.79v96.86c0,14.28 -11.57,25.87 -25.87,25.87H25.87C11.58,421.52 0,409.94 0,395.65V237.07c0,-14.28 11.58,-25.87 25.87,-25.87h59.99L336.62,298.79z"
+      android:fillColor="#FED159"/>
+  <path
+      android:pathData="M0,342.04h336.62v33.9h-336.62z"
+      android:fillColor="#65B4BB"/>
+  <path
+      android:pathData="M336.62,298.79v19.45H111.35c0,0.01 0,0.01 0,0.01H66.41V211.2h19.45L336.62,298.79z"
+      android:fillColor="#F6C454"/>
+  <path
+      android:pathData="M85.87,90.48h426.13v208.31h-426.13z"
+      android:fillColor="#82DCC7"/>
+  <path
+      android:pathData="M130.81,298.8h-44.94v-44.94C110.69,253.86 130.81,273.97 130.81,298.8z"
+      android:fillColor="#74CBB4"/>
+  <path
+      android:pathData="M85.87,90.49h44.94c0,24.82 -20.12,44.94 -44.94,44.94V90.49z"
+      android:fillColor="#74CBB4"/>
+  <path
+      android:pathData="M512,90.49v44.94c-24.83,0 -44.94,-20.12 -44.94,-44.94C467.06,90.49 512,90.49 512,90.49z"
+      android:fillColor="#74CBB4"/>
+  <path
+      android:pathData="M512,253.86v44.94h-44.94C467.06,273.97 487.17,253.86 512,253.86z"
+      android:fillColor="#74CBB4"/>
+  <path
+      android:pathData="M242.37,194.63a56.57,71.38 0,1 0,113.14 0a56.57,71.38 0,1 0,-113.14 0z"
+      android:fillColor="#74CBB4"/>
+  <path
+      android:pathData="M383.52,175.6h102.56v15.86h-102.56z"
+      android:fillColor="#74CBB4"/>
+  <path
+      android:pathData="M107.54,175.6h102.56v15.86h-102.56z"
+      android:fillColor="#74CBB4"/>
+  <path
+      android:pathData="M422.66,205.48h63.44v15.86h-63.44z"
+      android:fillColor="#74CBB4"/>
+  <path
+      android:pathData="M107.54,205.48h63.44v15.86h-63.44z"
+      android:fillColor="#74CBB4"/>
+  <path
+      android:pathData="M291,171.79l15.86,0l25.38,0l0,-15.86l-25.38,0l0,-17.59l-15.86,0l0,17.59l-25.38,0l0,46.64l50.76,0l0,14.92l-9.52,0l-15.86,0l-25.38,0l0,15.86l25.38,0l0,17.59l15.86,0l0,-17.59l25.38,0l0,-46.65l-50.76,0l0,-14.92z"
+      android:fillColor="#82DCC7"/>
+</vector>

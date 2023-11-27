@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "567376117041",
+    "project_id": "myphlebo-76345",
+    "storage_bucket": "myphlebo-76345.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:567376117041:android:c70415b6ab8415c9b78410",
+        "android_client_info": {
+          "package_name": "com.example.a14_signinsignup"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyATgdZ9xEpBaZDTpw-VB-usQ5vQcjgfiYc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="login_email_hint">Email</string>
+    <string name="login_password_hint">Password</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="title_activity_nevigation_drawable">NevigationDrawable</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_pharmacyOrder">My pharmacy order</string>
+    <string name="menu_labTest">My lab tests</string>
+    <string name="menu_consultancy">My consultancy</string>
+    <string name="menu_ourStore">MyPhelobotomy Stores</string>
+    <string name="menu_paymentMethod">Manage payment methods</string>
+    <string name="menu_referandearn">Refer and Earn</string>
+    <string name="menu_help">Need help</string>
+    <string name="menu_setting">Settings</string>
+    <string name="menu_aboutUs">About us</string>
+    <string name="logout">Logout</string>
+</resources>
