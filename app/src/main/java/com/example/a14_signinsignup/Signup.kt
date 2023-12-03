@@ -6,6 +6,7 @@ import android.os.Bundle
 import android.view.View
 import android.widget.Button
 import android.widget.EditText
+import android.widget.TextView
 import android.widget.Toast
 import com.google.firebase.database.DatabaseReference
 import com.google.firebase.database.FirebaseDatabase
@@ -24,7 +25,11 @@ class Signup : AppCompatActivity() {
         val inputEmail = findViewById<EditText>(R.id.editTextEmail)
         val inputNumber = findViewById<EditText>(R.id.editTextMobile)
         val inputPass = findViewById<EditText>(R.id.editTextPassword)
-
+        val loginpg = findViewById<TextView>(R.id.gotologin)
+        loginpg.setOnClickListener {
+            val intent = Intent(this, LoginActivity::class.java)
+            startActivity(intent)
+        }
         signupBtn.setOnClickListener{
             val name = inputName.text.toString()
             val email= inputEmail.text.toString()
@@ -34,7 +39,7 @@ class Signup : AppCompatActivity() {
             val user = Users(name,email,number, password)
             database = FirebaseDatabase.getInstance().getReference("Users")
 
-            database.child(email).setValue(user)
+            database.child(name).setValue(user)
                 .addOnSuccessListener {
                     Toast.makeText(this, "User registered!", Toast.LENGTH_SHORT).show()
                     val intent = Intent(this, LoginActivity::class.java)

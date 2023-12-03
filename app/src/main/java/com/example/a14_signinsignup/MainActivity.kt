@@ -11,7 +11,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
         Handler(Looper.getMainLooper()).postDelayed({
-            val intent = Intent(this, Signup::class.java)
+            val intent = Intent(this, HomeActivity::class.java)
             startActivity(intent)
             finish()
         }, 2000) // 3000 is the delayed time in milliseconds.

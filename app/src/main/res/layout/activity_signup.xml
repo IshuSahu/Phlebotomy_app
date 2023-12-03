@@ -21,22 +21,21 @@
             <RelativeLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content">
+
                 <TextView
                     style="@style/viewParent.headerText.NoMode"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentStart="true"
                     android:layout_alignParentLeft="true"
-                    android:layout_centerVertical="true"
-                    android:text="Here’s\nyour first\nstep with \nus! "
-                    android:textColor="@color/whiteTextColor" >
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginStart="0dp"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginEnd="0dp"
+                    android:text=" Here’s your first step with us! \n "
+                    android:textColor="@color/whiteTextColor">
 
                 </TextView>
-
-                <ImageView
-                    android:id="@+id/imageView"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_alignParentTop="true"
-                    android:layout_alignParentRight="true"
-                    android:src="@drawable/ic_login_hero" />
 
             </RelativeLayout>
             <com.google.android.material.card.MaterialCardView
@@ -110,9 +109,10 @@
                     </androidx.cardview.widget.CardView>
                     <TextView
                         style="@style/parent"
+                        android:id="@+id/gotologin"
                         android:height="48dp"
                         android:onClick="onLoginClick"
-                        android:text="Already have an account?"
+                        android:text="@string/already_have_an_account"
                         android:textAlignment="center"
                         android:textColor="@color/black"
                         android:textSize="17sp"

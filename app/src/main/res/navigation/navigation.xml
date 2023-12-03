@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/profile_fragment">
+    <fragment
+        android:id="@+id/profile_fragment"
+        android:name="com.example.a14_signinsignup.fragment.profile_fragment"
+        android:label="fragment_profile_fragment"
+        tools:layout="@layout/fragment_profile_fragment" />
+    <fragment
+        android:id="@+id/report_fragment"
+        android:name="com.example.a14_signinsignup.fragment.Report_fragment"
+        android:label="fragment_report_fragment"
+        tools:layout="@layout/fragment_report_fragment" />
+    <fragment
+        android:id="@+id/search_fragment2"
+        android:name="com.example.a14_signinsignup.fragment.Search_fragment"
+        android:label="fragment_search_fragment"
+        tools:layout="@layout/fragment_search_fragment" />
+    <fragment
+        android:id="@+id/home_fragment"
+        android:name="com.example.a14_signinsignup.fragment.Home_fragment"
+        android:label="fragment_home_fragment"
+        tools:layout="@layout/fragment_home_fragment" />
+</navigation>

@@ -10,8 +10,8 @@
         android:id="@+id/itemImage"
         android:layout_width="96dp"
         android:layout_height="96dp"
-        android:src="@drawable/ic_launcher_foreground"
-        android:background="@drawable/circular_background" />
+        android:src="@drawable/ic_home_black_24dp"
+        />
 
     <TextView
         android:id="@+id/itemHeading"
